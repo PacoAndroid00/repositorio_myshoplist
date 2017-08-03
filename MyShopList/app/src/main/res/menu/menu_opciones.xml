@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opcion1"
+        android:title="Nueva lista" />
+    <item
+        android:id="@+id/opcion2"
+        android:title="Listas existentes">
+        <menu>
+            <item
+                android:id="@+id/opcion22"
+                android:title="Borrar listas" />
+            <item
+                android:id="@+id/opcion21"
+                android:title="Mostrar listas" />
+            <item
+                android:id="@+id/opcion23"
+                android:title="Una más" />
+            <item
+                android:id="@+id/opcionSelecLista"
+                android:title="Selecciona una lista." />
+        </menu>
+    </item>
+</menu>

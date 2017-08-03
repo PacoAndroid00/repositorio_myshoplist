@@ -1,0 +1,3 @@
+
+
+Esta versión ya muestra las listas creadas en líneas de tamaño pequeño.

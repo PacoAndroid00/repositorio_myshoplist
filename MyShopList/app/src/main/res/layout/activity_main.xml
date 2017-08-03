@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context="com.apps.paco.myshoplist.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="520dp"
+        android:background="@android:color/holo_orange_light"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="9dp">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4">
+
+        </GridLayout>
+
+        <ImageView
+            android:id="@+id/imb_uno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gridLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:elevation="6dp"
+            android:src="@drawable/imagenconrecuadro" />
+
+        <ImageButton
+            android:id="@+id/imb_crear_lista"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/imb_anadir_producto"
+            android:layout_toEndOf="@+id/bt_borrar_lista"
+            android:background="@android:color/background_light"
+            android:elevation="21dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lista"
+            app:srcCompat="@color/common_google_signin_btn_text_dark_disabled" />
+
+        <ImageButton
+            android:id="@+id/imb_anadir_producto"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="46dp"
+            android:layout_marginEnd="13dp"
+            android:elevation="21dp"
+            android:src="@drawable/anadeproducto4"
+            app:srcCompat="@color/common_google_signin_btn_text_dark_default" />
+
+        <ImageButton
+            android:id="@+id/imb_lista_menos"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/imb_crear_lista"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="22dp"
+            android:layout_toEndOf="@+id/imb_crear_lista"
+            android:background="@android:color/background_light"
+            android:elevation="21dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/listamenos" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "377207827606",
+    "firebase_url": "https://myshoplist-babd3.firebaseio.com",
+    "project_id": "myshoplist-babd3",
+    "storage_bucket": "myshoplist-babd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377207827606:android:0460899b4014609f",
+        "android_client_info": {
+          "package_name": "com.apps.paco.myshoplist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377207827606-6rk0ki4g8asuu1pdbj6s0jb0dr7f51i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCzfuvRgMBCdR5wnfB4Vs04K-4PfPbkyA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
